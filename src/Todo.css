@@ -56,10 +56,16 @@ h1 {
   padding-left: 8px;
 }
 
+.task.overdue {
+  background-color:red;
+  font-weight: bold;
+}
+
 .task.completed {
   background-color: #617091;
   text-decoration: line-through;
 }
+
 form {
   width: 50%;
   display: flex;
